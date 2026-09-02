@@ -160,6 +160,18 @@ a:hover{color:var(--green-l);text-decoration:underline}
 .hero--page h1 em{font-style:normal;color:var(--gold)}
 .hero--page .lede{max-width:68ch}
 
+/* review hero CTA */
+.hero-op{display:flex;align-items:center;gap:14px 18px;flex-wrap:wrap;margin:20px 0 0;
+  padding:14px 16px;border:1px solid rgba(240,180,41,.34);border-radius:12px;
+  background:rgba(240,180,41,.09);max-width:68ch}
+.hero-op-txt{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1 1 240px}
+.hero-op-l{display:flex;align-items:center;gap:6px;font-family:var(--mono);font-size:9.5px;
+  font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.hero-op-l::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--gold)}
+.hero-op-v{font-size:16.5px;font-weight:800;line-height:1.3;color:#fff}
+.hero-op .cta-btn{flex:0 0 auto}
+.hero-op-tc{flex:1 0 100%;font-size:11px;line-height:1.4;color:#9FB5B0}
+
 .lede{font-size:clamp(16.5px,1.55vw,19px);line-height:1.62;color:#CFE0DB;margin:0}
 .lede a{color:var(--gold);text-decoration:underline;text-underline-offset:2px}
 
@@ -581,6 +593,11 @@ table.datatable{border:0}
   .brand-tag{display:none}
   .brand img,.brand-mark{width:28px;height:28px;flex:0 0 28px}
   .hero--page .meta-line .av{width:24px;height:24px;flex:0 0 24px}
+  .hero-op{margin-top:12px;padding:10px 12px;gap:9px;border-radius:11px}
+  .hero-op-txt{flex:1 0 100%}
+  .hero-op-v{font-size:14.5px;line-height:1.28}
+  .hero-op .cta-btn{width:100%;padding:12px 18px;font-size:14.5px;white-space:normal}
+  .hero-op-tc{font-size:10.5px}
 
   /* the offer rows come before the author's note, but after its heading */
   .lb-block{display:flex;flex-direction:column}

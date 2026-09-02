@@ -73,6 +73,29 @@ pay for it: the lede is clamped to **one** line, the H1 and table H2 drop a step
 size, the byline avatar goes to 24px, and the vertical rhythm above the card loses
 about 25px in margins. Without those trims the button landed at 682.
 
+### The review hero CTA
+
+Every operator review carries its affiliate CTA in the hero. `hero_html()` emits
+`.hero-op` whenever the front matter sets `review`, so the block is driven by the same
+key that builds the `Review` schema — a review page cannot have one without the other.
+
+It sits **after** the byline, not before it. That keeps the established mobile
+above-fold order (H1, author, updated date) exactly as it was; the button still lands
+at y309–358 on a 430px viewport, far inside the fold. Measured on
+`/casino-reviews/kingdom/`: H1 83–138, lede 145–168, byline 175–220, CTA block
+232–393.
+
+The block carries the welcome offer and a terms line (`18+ · T&Cs apply` plus the
+wagering requirement) alongside the button. A bare affiliate button with no terms
+would be the only CTA on the site without them — every offer card and CTA band already
+pairs the two, and for gambling copy the terms are not decoration.
+
+Desktop lays the offer and button side by side and wraps the terms onto their own row;
+below 720px the whole thing stacks and the button goes full width. `.cta-btn` is
+`white-space:nowrap` by default, which is safe here — the longest operator name is
+"Kingdom Casino" at 14 characters — but the mobile rule sets `white-space:normal`
+anyway so a longer name added later wraps instead of overflowing.
+
 ### The mobile offer card
 
 Below 720px each `.afl-row` stops being a three-column grid and becomes a centred

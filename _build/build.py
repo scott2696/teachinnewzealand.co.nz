@@ -432,10 +432,28 @@ def hero_html(fm, lede):
     if fm.get("facts"):
         facts = ('<div class="hero-facts">' +
                  "".join(f'<span class="hero-fact">{f}</span>' for f in fm["facts"]) + '</div>')
+    # operator reviews carry the affiliate CTA in the hero, below the byline so the
+    # mobile above-fold order (H1, author, updated) is unchanged
+    hero_op = ""
+    if fm.get("review") and fm["review"] in OPS:
+        sl = fm["review"]; op = OPS[sl]
+        href = html.escape(aff(sl), quote=True)
+        offer = op.get("welcome", "")
+        wag = op.get("wagering", "")
+        hero_op = (
+            '<div class="hero-op">'
+            '<div class="hero-op-txt">'
+            '<span class="hero-op-l">Welcome offer</span>'
+            f'<span class="hero-op-v">{offer}</span></div>'
+            f'<a class="cta-btn" href="{href}" rel="sponsored nofollow noopener" target="_blank">'
+            f'Get bonus at {strip_tags(op["name"])}</a>'
+            f'<span class="hero-op-tc">18+ &middot; T&amp;Cs apply'
+            f'{" &middot; " + strip_tags(html.unescape(str(wag))) if wag else ""}</span>'
+            '</div>')
     return f'''<section class="hero hero--page">{ticks()}<div class="wrap">
 {crumbs}<h1>{fm["h1"]}</h1>
 <p class="lede">{lede}</p>{facts}
-{meta}
+{meta}{hero_op}
 </div></section>'''
 
 
