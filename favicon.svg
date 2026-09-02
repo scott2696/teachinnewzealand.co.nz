@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Pokies Kiwi">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#FFC94C"/><stop offset="1" stop-color="#E09E0C"/></linearGradient></defs>
+<rect width="48" height="48" rx="10.8" fill="url(#g)"/>
+<g stroke="#0A2B26" stroke-width="6.5" stroke-linecap="round" fill="none">
+<path d="M14.4 12.2V37.2"/><path d="M14.4 26.2 31.9 12.2"/><path d="M20.9 24.8 34.3 37.2"/>
+</g><circle cx="37.2" cy="12.1" r="3.5" fill="#0A2B26"/></svg>
