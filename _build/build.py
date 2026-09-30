@@ -16,6 +16,7 @@ Emits: page HTML, sitemap.xml, robots.txt.
 """
 import datetime
 import json, os, re, html, datetime
+import seo_titles
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC  = os.path.join(ROOT, "_build", "pages")
@@ -26,9 +27,10 @@ BRAND_A  = "POKIES"
 BRAND_B  = "KIWI"
 TAGLINE  = "NZ Online Pokies &amp; Casino Guide"
 POSTER_TAGLINE = "We put our own money on the table, then tell you what happened."
-UPDATED  = "2026-09-02"
-UPDATED_H= "2 September 2026"
+UPDATED  = "2026-10-01"
+UPDATED_H= "1 October 2026"
 PUBLISHED= "2026-05-04"
+MONTH_YEAR = datetime.date.fromisoformat(UPDATED).strftime("%B %Y")
 EMAIL    = "editor@teachinnewzealand.co.nz"
 
 OPS = json.load(open(os.path.join(ROOT, "_build", "operators.json")))
@@ -1232,11 +1234,13 @@ def main():
         seen[fm["url"]] = fn
         out = os.path.join(ROOT, fm["url"].strip("/"), "index.html")
         os.makedirs(os.path.dirname(out), exist_ok=True)
-        open(out, "w", encoding="utf-8").write(render(fm, body))
+        doc = seo_titles.apply(render(fm, body), os.path.relpath(out, ROOT), MONTH_YEAR)
+        open(out, "w", encoding="utf-8").write(doc)
         # lastmod tracks the source fragment, not the build, so untouched pages
         # stop claiming a fresh date on every run
         lm = fm.get("updated") or datetime.date.fromtimestamp(
             os.path.getmtime(os.path.join(SRC, fn))).isoformat()
+        lm = max(lm, UPDATED)  # a site-wide UPDATED bump refreshes every page
         pages.append((fm["url"], fm.get("priority", 0.7), fm.get("freq", "monthly"), lm))
         print(f"  {fm['url']:44} <- {fn}")
 

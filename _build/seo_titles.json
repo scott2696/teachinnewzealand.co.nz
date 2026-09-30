@@ -1,0 +1,218 @@
+{
+ "about/index.html": {
+  "title": "About Pokies Kiwi [{{month}}]: Independent NZ Pokies Guide",
+  "h1": "About Pokies Kiwi [{{month}}]: <em>Who We Are and How We Are Paid</em>"
+ },
+ "authors/charlotte-wilson/index.html": {
+  "title": "Charlotte Wilson [{{month}}]: Law & Regulation Editor",
+  "h1": "Charlotte Wilson [{{month}}]: <em>Editor, Law &amp; Regulation</em>"
+ },
+ "authors/index.html": {
+  "title": "Our Authors [{{month}}]: Who Writes Pokies Kiwi",
+  "h1": "Our Authors [{{month}}]: <em>Everything Here Is Signed</em>"
+ },
+ "authors/nikau-te-aho/index.html": {
+  "title": "Nikau Te Aho [{{month}}]: Lead Reviewer at Pokies Kiwi",
+  "h1": "Nikau Te Aho [{{month}}]: <em>Lead Reviewer</em>"
+ },
+ "best-crypto-casinos/index.html": {
+  "title": "Crypto Casinos NZ [{{month}}]: Best Bitcoin Pokies Sites",
+  "h1": "Best Crypto Casinos NZ [{{month}}]: <em>Fastest Rail, Real Tax Consequences</em>"
+ },
+ "best-online-casinos/index.html": {
+  "title": "Best Online Casinos NZ [{{month}}]: 16 Sites Tested",
+  "h1": "Best Online Casinos NZ [{{month}}]: <em>Ranked on What We Could Measure</em>"
+ },
+ "best-sports-betting-sites/index.html": {
+  "title": "Sports Betting Sites NZ [{{month}}]: Legal Options",
+  "h1": "Sports Betting Sites NZ [{{month}}]: <em>A Very Short List, For Good Reasons</em>"
+ },
+ "casino-complaints/index.html": {
+  "title": "Casino Complaints NZ [{{month}}]: How to Escalate",
+  "h1": "Casino Complaints [{{month}}]: <em>How a Kiwi Actually Escalates</em>"
+ },
+ "casino-reviews/bet-and-play/index.html": {
+  "title": "Bet&Play Review NZ [{{month}}]: Payouts & Verdict",
+  "h1": "Bet&Play Review [{{month}}]: <em>Casino lobby behind a sportsbook brand</em>"
+ },
+ "casino-reviews/fortune-play/index.html": {
+  "title": "Fortune Play Review NZ [{{month}}]: Payouts & Verdict",
+  "h1": "Fortune Play Review [{{month}}]: <em>Most software studios</em>"
+ },
+ "casino-reviews/hellspin/index.html": {
+  "title": "HellSpin Review NZ [{{month}}]: Payouts & Verdict",
+  "h1": "HellSpin Review [{{month}}]: <em>Slightly above-average RTP filtering</em>"
+ },
+ "casino-reviews/index.html": {
+  "title": "Casino Reviews NZ [{{month}}]: 16 Sites Tested With NZD",
+  "h1": "Casino Reviews [{{month}}]: <em>All 16, Tested With Our Own Money</em>"
+ },
+ "casino-reviews/ivibet/index.html": {
+  "title": "IviBet Review NZ [{{month}}]: Payouts & Verdict",
+  "h1": "IviBet Review [{{month}}]: <em>Live dealer alongside pokies</em>"
+ },
+ "casino-reviews/kingdom/index.html": {
+  "title": "Kingdom Casino Review NZ [{{month}}]: Tested Payouts",
+  "h1": "Kingdom Casino Review [{{month}}]: <em>Highest withdrawal ceilings</em>"
+ },
+ "casino-reviews/lucky-circus/index.html": {
+  "title": "Lucky Circus Review NZ [{{month}}]: Payouts & Verdict",
+  "h1": "Lucky Circus Review [{{month}}]: <em>Weekly free-spins drop</em>"
+ },
+ "casino-reviews/lucky-vibe/index.html": {
+  "title": "Lucky Vibe Review NZ [{{month}}]: Payouts & Verdict",
+  "h1": "Lucky Vibe Review [{{month}}]: <em>Bonus value across four deposits</em>"
+ },
+ "casino-reviews/lucky7even/index.html": {
+  "title": "Lucky7even Review NZ [{{month}}]: Payouts & Verdict",
+  "h1": "Lucky7even Review [{{month}}]: <em>No-deposit spins on sign-up</em>"
+ },
+ "casino-reviews/madcasino/index.html": {
+  "title": "MadCasino Review NZ [{{month}}]: Payouts & Verdict",
+  "h1": "MadCasino Review [{{month}}]: <em>Gamified missions and drops</em>"
+ },
+ "casino-reviews/rivo/index.html": {
+  "title": "Rivo Casino Review NZ [{{month}}]: Payouts & Verdict",
+  "h1": "Rivo Casino Review [{{month}}]: <em>Low-stakes and NZ$1 spins</em>"
+ },
+ "casino-reviews/roby/index.html": {
+  "title": "Roby Casino Review NZ [{{month}}]: Payouts & Verdict",
+  "h1": "Roby Casino Review [{{month}}]: <em>Simple, no-frills play</em>"
+ },
+ "casino-reviews/rooster-bet/index.html": {
+  "title": "Rooster Bet Review NZ [{{month}}]: Payouts & Verdict",
+  "h1": "Rooster Bet Review [{{month}}]: <em>Pokies and sport in one wallet</em>"
+ },
+ "casino-reviews/slotsgem/index.html": {
+  "title": "SlotsGem Review NZ [{{month}}]: Payouts & Verdict",
+  "h1": "SlotsGem Review [{{month}}]: <em>New releases first</em>"
+ },
+ "casino-reviews/smash/index.html": {
+  "title": "Smash Casino Review NZ [{{month}}]: Tested Payouts",
+  "h1": "Smash Casino Review [{{month}}]: <em>Fastest cashouts</em>"
+ },
+ "casino-reviews/spinjo/index.html": {
+  "title": "Spinjo Casino Review NZ [{{month}}]: Tested Payouts",
+  "h1": "Spinjo Casino Review [{{month}}]: <em>Biggest pokies lobby in NZ</em>"
+ },
+ "casino-reviews/spino/index.html": {
+  "title": "Spino Casino Review NZ [{{month}}]: Tested Payouts",
+  "h1": "Spino Casino Review [{{month}}]: <em>Tournaments and leaderboards</em>"
+ },
+ "contact/index.html": {
+  "title": "Contact Us [{{month}}]: Pokies Kiwi Editorial Team",
+  "h1": "Contact Us [{{month}}]: <em>Corrections, Complaints and Enquiries</em>"
+ },
+ "cookie-policy/index.html": {
+  "title": "Cookie Policy [{{month}}]: Pokies Kiwi",
+  "h1": "Cookie Policy [{{month}}]: Pokies Kiwi"
+ },
+ "fast-payout-casinos/index.html": {
+  "title": "Fast Payout Casinos NZ [{{month}}]: 48 Withdrawals, Timed",
+  "h1": "Fast Payout Casinos NZ [{{month}}]: <em>48 Withdrawals, Timed</em>"
+ },
+ "free-pokies/index.html": {
+  "title": "Free Pokies NZ [{{month}}]: Demo Play, No Download",
+  "h1": "Free Pokies NZ [{{month}}]: <em>Same Maths, No Money</em>"
+ },
+ "free-spins/index.html": {
+  "title": "Free Spins NZ [{{month}}]: Best Free Spins Offers",
+  "h1": "Free Spins NZ [{{month}}]: <em>Four Numbers Decide the Value</em>"
+ },
+ "gambling-winnings-tax-nz/index.html": {
+  "title": "Gambling Winnings Tax NZ [{{month}}]: Do You Pay?",
+  "h1": "Tax on Gambling Winnings NZ [{{month}}]: <em>The Windfall Rule and Its Four Exceptions</em>"
+ },
+ "high-payout-casinos/index.html": {
+  "title": "High Payout Casinos NZ [{{month}}]: Highest RTP Sites",
+  "h1": "High Payout Casinos NZ [{{month}}]: <em>RTP and the Ceiling Nobody Publishes</em>"
+ },
+ "highest-rtp-pokies/index.html": {
+  "title": "Highest RTP Pokies NZ [{{month}}]: Verified Returns",
+  "h1": "Highest RTP Pokies NZ [{{month}}]: <em>Verified, Not Quoted</em>"
+ },
+ "how-we-review/index.html": {
+  "title": "How We Review [{{month}}]: Pokies Kiwi Methodology",
+  "h1": "How We Review [{{month}}]: <em>The Method Behind Every Score</em>"
+ },
+ "index.html": {
+  "title": "Best Online Pokies NZ [{{month}}]: Real Money Pokies",
+  "h1": "Best Online Pokies NZ [{{month}}]: 16 Sites Tested With <em>Real New Zealand Dollars</em>"
+ },
+ "jackpot-pokies/index.html": {
+  "title": "Jackpot Pokies NZ [{{month}}]: Progressive Pokies",
+  "h1": "Jackpot Pokies NZ [{{month}}]: <em>What the Jackpot Costs You</em>"
+ },
+ "live-casinos/index.html": {
+  "title": "Live Casino NZ [{{month}}]: Best Live Dealer Sites for Kiwis",
+  "h1": "Live Casino NZ [{{month}}]: <em>Real Tables, New Zealand Hours</em>"
+ },
+ "megaways-pokies/index.html": {
+  "title": "Megaways Pokies NZ [{{month}}]: Best Titles & RTP",
+  "h1": "Megaways Pokies NZ [{{month}}]: <em>117,649 Ways, and What They Cost</em>"
+ },
+ "minimum-deposit-casinos/index.html": {
+  "title": "Minimum Deposit Casinos NZ [{{month}}]: Play From NZ$10",
+  "h1": "Minimum Deposit Casinos NZ [{{month}}]: <em>NZ$10 In, But Check What Gets You Out</em>"
+ },
+ "mobile-pokies/index.html": {
+  "title": "Mobile Pokies NZ [{{month}}]: Tested on 4G",
+  "h1": "Mobile Pokies NZ [{{month}}]: <em>Tested on What Kiwis Actually Use</em>"
+ },
+ "no-deposit-casinos/index.html": {
+  "title": "No Deposit Bonus NZ [{{month}}]: Free Spins No Deposit",
+  "h1": "No Deposit Bonus NZ [{{month}}]: <em>Free to Try, Capped by Design</em>"
+ },
+ "nz-online-casino-law/index.html": {
+  "title": "NZ Online Casino Law [{{month}}]: The 2026 Act",
+  "h1": "NZ Online Casino Law [{{month}}]: <em>What the 2026 Act Actually Does</em>"
+ },
+ "online-betting/index.html": {
+  "title": "Online Betting NZ [{{month}}]: What Is Legal Now",
+  "h1": "Online Betting NZ [{{month}}]: <em>The Law Changed, and Most Guides Have Not Caught Up</em>"
+ },
+ "online-casinos/bonuses/index.html": {
+  "title": "Casino Bonuses NZ [{{month}}]: Every Offer Priced",
+  "h1": "Casino Bonuses NZ [{{month}}]: <em>What Each Offer Is Really Worth</em>"
+ },
+ "online-casinos/index.html": {
+  "title": "Online Casinos NZ [{{month}}]: Real Money Casino Sites",
+  "h1": "Online Casinos NZ [{{month}}]: <em>Start Where Your Priority Is</em>"
+ },
+ "online-pokies/index.html": {
+  "title": "Online Pokies NZ [{{month}}]: Real Money Pokies Sites",
+  "h1": "Online Pokies NZ [{{month}}]: The Games, The Maths and <em>Where Kiwis Get Paid</em>"
+ },
+ "payment-methods/index.html": {
+  "title": "Casino Payment Methods NZ [{{month}}]: What Works",
+  "h1": "NZ Casino Payment Methods [{{month}}]: What Actually Works Now"
+ },
+ "pokies-glossary/index.html": {
+  "title": "Pokies Glossary NZ [{{month}}]: Every Term Explained",
+  "h1": "Pokies Glossary [{{month}}]: <em>Every Term, Plainly</em>"
+ },
+ "privacy/index.html": {
+  "title": "Privacy Policy [{{month}}]: Pokies Kiwi",
+  "h1": "Privacy Policy [{{month}}]: Pokies Kiwi"
+ },
+ "pub-pokies-vs-online-pokies/index.html": {
+  "title": "Pub Pokies vs Online Pokies [{{month}}]: NZ Compared",
+  "h1": "Pub Pokies vs Online Pokies [{{month}}]: <em>The Comparison Nobody Publishes</em>"
+ },
+ "responsible-gambling/index.html": {
+  "title": "Responsible Gambling NZ [{{month}}]: Free Help",
+  "h1": "Responsible Gambling [{{month}}]: <em>Free Help in New Zealand, Right Now</em>"
+ },
+ "terms/index.html": {
+  "title": "Terms and Conditions [{{month}}]: Pokies Kiwi",
+  "h1": "Terms and Conditions [{{month}}]: Pokies Kiwi"
+ },
+ "wagering-requirements/index.html": {
+  "title": "Wagering Requirements NZ [{{month}}]: Bonus Cost",
+  "h1": "Wagering Requirements [{{month}}]: <em>The Arithmetic Operators Hope You Skip</em>"
+ },
+ "withdrawal-times/index.html": {
+  "title": "Casino Withdrawal Times NZ [{{month}}]: 48 Cashouts",
+  "h1": "Casino Withdrawal Times NZ [{{month}}]: <em>What 48 Timed Cashouts Showed</em>"
+ }
+}
